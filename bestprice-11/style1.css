@@ -1,0 +1,14 @@
+.container1:{
+    margin: 100px;;
+}
+.newarrival{
+    background: greenyellow;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.col-md-6 h2{
+    color:orangered;
+}
