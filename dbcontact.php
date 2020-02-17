@@ -15,6 +15,7 @@ if(isset($_POST['action']))
       
        if($result) 
         {
+           
             echo "inserted successfully";
         } 
         else

@@ -216,14 +216,13 @@
           border-radius: 60px;
           position: absolute;
           bottom: 0;
-
-
           }
-
           .button1 {
           padding: 10px 24px;
           }
+          
         </style>
+        
          <div class="content-wrap"> 
        <center> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-primary btn-lg">RICE PRODUCTS</button>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="daloffer.html"><button type="button" class="btn btn-primary btn-lg">Todays Offer</button></a> <br><br></center>
@@ -259,7 +258,7 @@ $connect = mysqli_connect("localhost", "root", "", "product");
 				?>
             <div class="author-list-section">
               <div class="wrap-list-rc" >
-                <form method="post" action="productpage.php?action=add&id="<?php echo $row["id"]; ?>">
+                  <form method="post" action="productpage.php?action=add&id=<?php echo $row["id"]; ?>">
                   <!--<div style="border:1px solid #333; background-color:#f1f1f1; border-radius:5px; padding:16px;" align="center">-->
            
 
@@ -290,11 +289,11 @@ $connect = mysqli_connect("localhost", "root", "", "product");
                             </div>
                             <div class="clear"></div>
                           </div>
-                          <input type="hidden" name="hidden_name" value=""<?php echo $row["name"]; ?>" />
+                       <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>" />
 
-                          <input type="hidden" name="hidden_price" value=""<?php echo $row["price"]; ?>" />
+                          <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?> "/>
 
-                          <input type="submit" name="" style="margin-top:5px;" class="btn btn-success" value="BUY NOW" />
+                          <input type="submit" name="" style="margin-top:5px;" class="btn btn-success" value="VIEW DETAILS" />
                         </div>
                       
                   </div>

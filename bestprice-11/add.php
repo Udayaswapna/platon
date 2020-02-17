@@ -56,7 +56,7 @@
           <li>
            
         </ul>
-      </nav>
+      </nav><br><br>
       <!-- .Sidebar left -->
       <!-- Sidebar right -->
       <nav id="sidebarright" class="sidenav">
@@ -144,6 +144,7 @@
         </nav>
         <!-- .Header  -->
         <!-- Content Wrap  -->
+        
         <div class="content-wrap">
           
           
@@ -169,6 +170,8 @@
                         <label for="new_password">Product image</label>
                         <input type="file"  name="image" ></div>
                       </div>
+                    
+                    
                       <div class="form-group">
                       <div class="col-xs-12">
                         <label for="new_password">category type</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
